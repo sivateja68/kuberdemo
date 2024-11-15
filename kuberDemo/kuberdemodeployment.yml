@@ -24,6 +24,6 @@ spec:
                       - minikube
       containers:
         - name: kuberdemo
-          image: solidwave/kuberdemo:v2
+          image: solidwave/kuberdemo:#VERSION#
           ports:
             - containerPort: 8080
