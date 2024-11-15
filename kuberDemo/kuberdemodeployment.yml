@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kuberdemo
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kuberdemo
+  template:
+    metadata:
+      labels:
+        app: kuberdemo
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: kubernetes.io/hostname
+                    operator: In
+                    values:
+                      - minikube
+      containers:
+        - name: kuberdemo
+          image: solidwave/kuberdemo:v2
+          ports:
+            - containerPort: 8080
