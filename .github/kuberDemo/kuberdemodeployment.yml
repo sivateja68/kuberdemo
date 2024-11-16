@@ -17,7 +17,7 @@ spec:
         nodeAffinity:
           requiredDuringSchedulingIgnoredDuringExecution:
             nodeSelectorTerms:
-              - matchExpressions:
+              - matchExpressions:kuberdemodeployment.yml
                   - key: kubernetes.io/hostname
                     operator: In
                     values:

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ed5ec99-9711-434d-a55c-2fe4cb5c2491" name="Changes" comment="Change in kuberdemodeployment.yml">
+      <change beforePath="$PROJECT_DIR$/kuberDemo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/kuberdemo-ingress.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/kuberdemodeployment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/kuberdemoservice.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/src/main/java/com/kubernates/kuberDemo/KuberDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/src/main/java/com/kubernates/kuberDemo/api/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/src/main/java/com/kubernates/kuberDemo/api/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/src/main/java/com/kubernates/kuberDemo/api/KuberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuberDemo/src/test/java/com/kubernates/kuberDemo/KuberDemoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ot6lATZ1FOGiQUQvZhsASsVPNJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/repopractice"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\repopractice" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ed5ec99-9711-434d-a55c-2fe4cb5c2491" name="Changes" comment="" />
+      <created>1731676673015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731676673015</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Kuber Demo">
+      <option name="closed" value="true" />
+      <created>1731676827039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731676827039</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change in kuberdemodeployment.yml">
+      <option name="closed" value="true" />
+      <created>1731677893646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731677893646</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Kuber Demo" />
+    <MESSAGE value="Change in kuberdemodeployment.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change in kuberdemodeployment.yml" />
+  </component>
+</project>
