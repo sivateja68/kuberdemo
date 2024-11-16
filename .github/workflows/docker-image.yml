@@ -22,15 +22,9 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-
-      - name: List files in the repository
-        run: ls -R
-
-      - name: Change directory to kuberdemo
-        run: cd ./kuberDemo
     
       - name: Tag and Push Docker Image
         run: |
-         docker buildx build -t kuberDemo -f ./kuberDemo/Dockerfile .
+         docker buildx build -t kuberdemo -f ./kuberDemo/Dockerfile .
          docker tag kuberdemo solidwave/kuberdemo:${{ github.run_number }}
          docker push solidwave/kuberdemo:${{ github.run_number }}
