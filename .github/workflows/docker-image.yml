@@ -25,7 +25,7 @@ jobs:
         run: ls -R
 
       - name: Change directory to kuberdemo
-        run: cd ./kuberDemo
+        run: cd kuberDemo
     
       - name: Tag and Push Docker Image
         run: |
