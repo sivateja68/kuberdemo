@@ -24,6 +24,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: ./kuberDemo/Dockerfile
+          file: ../../kuberDemo/Dockerfile
           push: true
           tags: solidwave/kuberdemo:${{ github.run_number }}
