@@ -22,7 +22,7 @@ jobs:
     
       - name: Tag and Push Docker Image
         run: |
-         cd kuberDemo
+         cd kuberdemo
          docker buildx build -t kuberdemo -f ./kuberDemo/Dockerfile .
          docker tag kuberdemo solidwave/kuberdemo:${{ github.run_number }}
          docker push solidwave/kuberdemo:${{ github.run_number }}
