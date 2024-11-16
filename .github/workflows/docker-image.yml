@@ -19,6 +19,9 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
+      - name: Build Docker Image
+        run: |
+         docker build -t kuberdemo .
       - name: Tag and Push Docker Image
         run: |
          docker tag kuberdemo solidwave/kuberdemo:${{ github.run_number }}
