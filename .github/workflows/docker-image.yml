@@ -25,4 +25,4 @@ jobs:
         with:
           context: kuberDemo/.
           push: true
-          tags: solidwave/kuberdemo:${GITHUB_RUN_NUMBER}
+          tags: solidwave/kuberdemo:${{ github.run_number }}
