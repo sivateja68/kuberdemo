@@ -24,9 +24,9 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
     
       - name: Tag and Push Docker Image
-        with:
-         context: .
-         run: |
-           docker buildx build -t kuberdemo -f ./kuberDemo/Dockerfile
-           docker tag kuberdemo solidwave/kuberdemo:${{ github.run_number }}
-           docker push solidwave/kuberdemo:${{ github.run_number }}
+        with: 
+          context: .
+          push: true
+          tags: solidwave/kuberdemo:${{ github.run_number }}
+           
+       
